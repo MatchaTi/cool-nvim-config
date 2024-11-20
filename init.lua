@@ -35,3 +35,8 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+vim.opt.shell = "pwsh"
+vim.opt.wrap = false
+vim.opt.number = true
+vim.opt.relativenumber = true
